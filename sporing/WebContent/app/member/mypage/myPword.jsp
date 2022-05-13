@@ -7,6 +7,7 @@
 <title>스포링: 간단하게 팀 구해서 운동하자!</title>
 <link rel="stylesheet" href="/assets/css/mypage/mypage.css">
 <link rel="stylesheet" href="/assets/css/mypage/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
 <%@include file="/app/fix/header.jsp" %>
@@ -37,17 +38,15 @@
 						<p class="parking-wrap">
 							<span class="man">남성</span>
 							<small>·</small>
-							<small>임진석</small>
-							<small>·</small>
 							<small>3파</small>
 							<small>·</small>
 							<small>5vs5</small>
+							<small>·</small>
+							<span class="low">초급</span>
 						</p>
 					</div>
 				</div>
-				<a href=""><p><img src="/images/mypage/user.svg"></p></a>
-				<button class="btn resp-btn" type="button" id="yes" onclick="">승인</button>
-				<button class="btn resp-btn" type="button" id="no" onclick="">거절</button>
+					<button class="del-btn" id="delRe" type="button" onclik=""><span class="material-symbols-outlined">delete</span></button>
 			</li>
 			<li class="list-group-items">
 				<div class="time-wrap">
@@ -56,21 +55,19 @@
 				</div>
 				<div class="match-wrap">
 					<div class="ground-wrap">
-						<a href=""><p><strong>종합운동장 A경기장(잠실)</strong><img src="/images/mypage/document.svg"></p></a>
+						<a href=""><p><strong>종합운동장 C경기장(잠실)</strong><img src="/images/mypage/document.svg"></p></a>
 						<p class="parking-wrap">
 							<span class="woman">여성</span>
 							<small>·</small>
-							<small>아이유</small>
-							<small>·</small>
 							<small>3파</small>
 							<small>·</small>
-							<small>6vs6</small>
+							<small>5vs5</small>
+							<small>·</small>
+							<span class="middle">중급</span>
 						</p>
 					</div>
 				</div>
-				<a href=""><p><img src="/images/mypage/user.svg"></p></a>
-				<button class="btn resp-btn" type="button" id="yes" onclick="">승인</button>
-				<button class="btn resp-btn" type="button" id="no" onclick="">거절</button>
+				<button class="del-btn" id="delRe" type="button" onclik=""><span class="material-symbols-outlined">delete</span></button>
 			</li>
 			<li class="list-group-items">
 				<div class="time-wrap">
@@ -79,21 +76,19 @@
 				</div>
 				<div class="match-wrap">
 					<div class="ground-wrap">
-						<a href=""><p><strong>종합운동장 C경기장(잠실)</strong><img src="/images/mypage/document.svg"></p></a>
+						<a href=""><p><strong>종합운동장 B경기장(잠실)</strong><img src="/images/mypage/document.svg"></p></a>
 						<p class="parking-wrap">
 							<span class="mix">혼성</span>
 							<small>·</small>
-							<small>임진석</small>
-							<small>·</small>
 							<small>3파</small>
 							<small>·</small>
-							<small>11vs11</small>
+							<small>5vs5</small>
+							<small>·</small>
+							<span class="high">고급</span>
 						</p>
 					</div>
 				</div>
-				<a href=""><p><img src="/images/mypage/user.svg"></p></a>
-				<button class="btn resp-btn" type="button" id="yes" onclick="">승인</button>
-				<button class="btn resp-btn" type="button" id="no" onclick="">거절</button>
+				<button class="del-btn" id="delRe" type="button" onclik=""><span class="material-symbols-outlined">delete</span></button>
 			</li>
 		</ul>
 	</div>

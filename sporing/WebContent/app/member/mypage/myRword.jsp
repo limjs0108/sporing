@@ -7,6 +7,7 @@
 <title>스포링: 간단하게 팀 구해서 운동하자!</title>
 <link rel="stylesheet" href="/assets/css/mypage/mypage.css">
 <link rel="stylesheet" href="/assets/css/mypage/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
 <%@include file="/app/fix/header.jsp" %>
@@ -24,81 +25,60 @@
 					</div>
 				</div>
 			</section>
+			
+		<section>
+				<h4>내가 작성한 댓글</h4>
+			<ul class="list-group list-group-word">
+					<li class="list-chat-item">
+						<div class="msg">
+						<a href="">
+							<p>반갑습니다</p>
+						</a>
+						</div>
+						<div class="time-del">
+							<p>2022-05-05<br>00:00:01</p>
+							<button class="del-btn" id="delRe" type="button" onclik=""><span class="material-symbols-outlined">close</span></button>					
+						</div>
+					</li>
+					<li class="list-chat-item">
+						<div class="msg">
+						<a href="">
+							<p>하이</p>
+						</a>
+						</div>
+						<div class="time-del">
+							<p>2022-05-13<br>13:54:00</p>
+							<button class="del-btn" id="delRe" type="button" onclik=""><span class="material-symbols-outlined">close</span></button>					
+						</div>
+					</li>
+					<li class="list-chat-item">
+						<div class="msg">
+						<a href="">
+							<p>ㅎㅇ</p>
+						</a>
+						</div>
+						<div class="time-del">
+							<p>2022-05-14<br>02:31:44</p>
+							<button class="del-btn" id="delRe" type="button" onclik=""><span class="material-symbols-outlined">close</span></button>
+						</div>
+					</li>
+					<li class="list-chat-item">
+						<div class="msg">
+						<a href="">
+							<p>ㅂㅂ</p>
+						</a>
+						</div>
+						<div class="time-del">	
+							<p>2022-12-31<br>23:59:99</p>
+							<button class="del-btn" id="delRe" type="button" onclik=""><span class="material-symbols-outlined">close</span></button>
+						</div>
+					</li>
+				</ul>
+		</section>
 		
-		<ul class="list-group list-group-flush text-center">
-			<li class="list-group-items">
-				<div class="time-wrap">
-					<p>13일</p>
-					<small>09:00</small>
-				</div>
-				<div class="match-wrap">
-					<div class="ground-wrap">
-						<a href=""><p><strong>종합운동장 B경기장(잠실)</strong><img src="/images/mypage/document.svg"></p></a>
-						<p class="parking-wrap">
-							<span class="man">남성</span>
-							<small>·</small>
-							<small>임진석</small>
-							<small>·</small>
-							<small>3파</small>
-							<small>·</small>
-							<small>5vs5</small>
-						</p>
-					</div>
-				</div>
-				<a href=""><p><img src="/images/mypage/user.svg"></p></a>
-				<button class="btn resp-btn" type="button" id="yes" onclick="">승인</button>
-				<button class="btn resp-btn" type="button" id="no" onclick="">거절</button>
-			</li>
-			<li class="list-group-items">
-				<div class="time-wrap">
-					<p>13일</p>
-					<small>20:00</small>
-				</div>
-				<div class="match-wrap">
-					<div class="ground-wrap">
-						<a href=""><p><strong>종합운동장 A경기장(잠실)</strong><img src="/images/mypage/document.svg"></p></a>
-						<p class="parking-wrap">
-							<span class="woman">여성</span>
-							<small>·</small>
-							<small>아이유</small>
-							<small>·</small>
-							<small>3파</small>
-							<small>·</small>
-							<small>6vs6</small>
-						</p>
-					</div>
-				</div>
-				<a href=""><p><img src="/images/mypage/user.svg"></p></a>
-				<button class="btn resp-btn" type="button" id="yes" onclick="">승인</button>
-				<button class="btn resp-btn" type="button" id="no" onclick="">거절</button>
-			</li>
-			<li class="list-group-items">
-				<div class="time-wrap">
-					<p>14일</p>
-					<small>20:00</small>
-				</div>
-				<div class="match-wrap">
-					<div class="ground-wrap">
-						<a href=""><p><strong>종합운동장 C경기장(잠실)</strong><img src="/images/mypage/document.svg"></p></a>
-						<p class="parking-wrap">
-							<span class="mix">혼성</span>
-							<small>·</small>
-							<small>임진석</small>
-							<small>·</small>
-							<small>3파</small>
-							<small>·</small>
-							<small>11vs11</small>
-						</p>
-					</div>
-				</div>
-				<a href=""><p><img src="/images/mypage/user.svg"></p></a>
-				<button class="btn resp-btn" type="button" id="yes" onclick="">승인</button>
-				<button class="btn resp-btn" type="button" id="no" onclick="">거절</button>
-			</li>
-		</ul>
+		</div>
+		</div>
+	
 	</div>
-</div>
-</div>
-<%@include file="/app/fix/footer.jsp" %>
 </body>
 </html>

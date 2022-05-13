@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>스포링: 간단하게 팀 구해서 운동하자!</title>
 <link rel="stylesheet" href="/assets/css/mypage/mypage.css">
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/mypage/style.css">
 </head>
 <body>
 <%@include file="/app/fix/header.jsp" %>
@@ -99,10 +99,6 @@
 	</div>
 </div>
 </div>
-
-
-
-
 <%@include file="/app/fix/footer.jsp" %>
 </body>
 </html>

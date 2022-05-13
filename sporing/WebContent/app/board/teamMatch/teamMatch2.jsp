@@ -5,9 +5,9 @@
 <head>
 <meta charset="UTF-8">
 <title>팀매치 글쓰기</title>
-<link rel="stylesheet" href="assets/css/style.css">
-<link href="/assets/css/teamMatch2.css" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/teamMatchList.css">
+<link rel="stylesheet" href="assets/css/mypage/style.css">
+<link href="/assets/css/team/teamMatch2.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/team/teamMatchList.css">
 <link rel="stylesheet"
 	href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link rel="stylesheet" href="/resources/demos/style.css">
