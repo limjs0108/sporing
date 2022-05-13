@@ -9,26 +9,25 @@
 	font-style: normal;
 }
 
-
-
-.chatInfoBox {
+.chat-info-box {
 	display: flex;
 }
 
-.chatBox {
+.chat-box {
 	position: relative;
 	display: flex; 
-	top: 10%;
-	left: 5%;
-    padding-top: 5%;
+	top: 8%;
+	left: 3%;
+    padding-top: 3%;
 
 }
 
-.chatBox_me {
+.chat-box_me {
 	display: flex;
     float: right;
-	margin-right: 10px;
-	
+	position: relative;
+	padding-top: 3%;
+	right:3%;
 }
 
 #profile {
@@ -45,7 +44,7 @@
 	background-color: #F6F6F9;
 	width: 65%;
 	margin: 0px auto;
-	height: 1024px;
+	height: 100vh;
 }
 
 #send_btn {
@@ -66,18 +65,25 @@
 
 .chat_text_me {
 	background-color: #ffed8a;
-	border-radius: 0px 5px 5px 5px;
+	border-radius: 5px 0px 5px 5px;
 	text-align: center;
-	padding: 5px;
+	padding: 8px;
 	margin: 3px;
 }
 
-.chat_text {
+.chat_text, #chat_url {
 	background-color: white;
 	border-radius: 0px 5px 5px 5px;
 	text-align: center;
-	padding: 5px;
+	padding: 8px;
 }
+
+#chat_url{
+	margin-top: 5px;
+	font-size: 15px;
+}
+
+
 
 #chat {
 	border: none;
@@ -88,19 +94,32 @@
 
 .chat_input_box {
 	width: 70%;
-    position: fixed;
-    padding: 0px auto;
+	display: relative;
+	bottom:10vh;
+	position: fixed;
+	margin-left:2%;
+
 }
 
 .chat_info span:first-child {
-	font-size: 20px;
+	display: inline-block;
+	font-size: 15px;
+	
 }
 
-.chat_info span:last-child {
-	margin-left: 10px;
-	font-size: 12px;
+.chat_info span:nth-child(2){
+	font-size: 10px;
+	color: grey;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.chat_info_me span {
+	margin-left: 5px;
+	font-size: 10px;
 	color: grey;
 }
+
 
 nav {
 	height: 30px;
@@ -115,8 +134,11 @@ ul li {
 	margin: 0px 20px;
 }
 
-a {
+nav a {
 	text-decoration: none;
 	color: black;
+}
+section a:visited{
+	color:#3375E8;
 }
 
