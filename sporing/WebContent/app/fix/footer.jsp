@@ -12,10 +12,10 @@
             <footer class="footer">
                 <div class="footer-container">
                     <a class="my-3" href="">
-                        <img src="https://pzfutball.com/public_images/footer/logo.svg" alt="" width="80">
+                        <img src="/images/logo.png" alt="" width="80">
                     </a>
-                    <p> 우리모두의 SPORING</p>
                     <div class="copyright">
+                    	<p> 우리모두의 SPORING</p>
                         <p class="mb-3">팀명 I6E2</p>
                         <p>| 서울시 강남구 강남로 코리아 아이티</p>
                         <p>| 사업자번호 010-01-111111 | 강남강남</p>
