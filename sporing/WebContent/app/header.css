@@ -1,0 +1,117 @@
+@font-face {
+	font-family: 'ONE-Mobile-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ONE-Mobile-Title';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'ONE-Mobile-Regular';
+}
+
+root a {
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+root a:visited {
+	color: black;
+}
+
+.root {
+	display: flex;
+	flex-direction: column;
+	min-width: 360px;
+}
+
+.root .navi-container {
+	padding-top: 1rem;
+}
+
+.root .navi-container .menu-container {
+	padding-top: 1rem;
+	padding-bottom:10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.root .navi-container .menu-container .navi-content {
+	font-family: 'ONE-Mobile-Title';
+	display: flex;
+	justify-content: space-around;
+	max-width: 800px;
+	margin: auto;
+}
+
+.root .navi-container .menu-container .navi-content a.active {
+	font-family: 'ONE-Mobile-Title';
+	border-bottom: 3px solid rgba(30, 30, 30, .97);
+	font-weight:li
+}
+
+.root .navi-container .user-info-container .user-info-wrap * {
+	font-size: 12px;
+}
+
+.start-container {
+	display: flex !important;
+	-ms-flex-pack: justify !important;
+	justify-content: space-between !important;
+	padding: 0 !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	max-width: 928px;
+}
+
+.logoimg {
+	margin-left: 1rem !important;
+	font-family: 'ONE-Mobile-Title';
+	font-size:16px;
+}
+
+.user-info-container {
+	top: -10px;
+	right: 0px;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+}
+
+.user-info-container .user-info-wrap {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.join-a-tag {
+	display: flex !important;
+	justify-content: space-between !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	border-radius: 3px;
+	padding: 5px 15px 2px;
+	background-color: #fff;
+}
+
+.login-a-tag {
+	padding: 5px 15px 2px;
+	border-radius: 50rem !important;
+	border: 1px solid #dee2e6 !important;
+	line-height: 1.5;
+}
+
+.sidedots {
+	padding-left: 1rem !important;
+	padding-right: 1rem !important;
+}

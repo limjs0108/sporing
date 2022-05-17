@@ -1,0 +1,72 @@
+
+
+.sidebar-list li{
+    list-style: none;
+}
+.sidebar-list li a{
+    text-decoration: none;
+    padding: 5px 0;
+    font-size: 12.5px;
+}
+.sidebar-list ul{
+padding-left: 20px;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+.sidebar{
+    position: fixed;
+    margin: 0;
+    padding: 30px 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: white;
+    height: 100%;
+    min-width: 250px;
+    width: 250px;
+    top: 0;
+    right: -300px;
+    transition: all 0.3s;
+}
+.active{
+    right: 0px;
+    background-color: rgb(249 249 249);
+    transition: all 0.3s;
+}
+.sidehead{
+    display: flex;
+    padding-left: 20px;
+}
+.sidehead div>a{
+    text-decoration: none;
+    font-size: 12.5px;
+    color: #000000ab;
+}
+.sidehead div>a:visited{
+    color: #0000003d;
+}
+.sideclose{
+    display: flex;
+    padding-left: 50px;
+}
+
+.loginbtn{
+    margin: 0 0 0 8px;
+    padding: 0 5px 15px 2px;
+}
+.loginbtn a{
+    border: 1px solid #0000003d;
+    border-radius: 20px;
+    padding: 5px 10px;
+   
+}
+

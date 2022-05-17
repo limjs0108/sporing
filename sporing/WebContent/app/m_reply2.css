@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'ONE-Mobile-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ONE-Mobile-Title';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.root {
+	font-family: 'ONE-Mobile-Regular';
+	margin: 0px auto;
+	width: 65%;
+}
+
+.container {
+	display: block;
+	max-width: 480px;
+	margin: 0 auto;
+}
+
+.introduce {
+	padding: 0 16px 32px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.lo-box {
+	width: 100%;
+	display: block;
+}
+
+.lo_select {
+	width: 448px;
+	height: 45px;
+}
+#send_btn {
+	width: 448px;
+	margin-top: 150px;
+	height: 48px;
+	background-color: #0074FF;
+	color: white;
+	border-width: none;
+	border-style: none;
+	border-image: initial;
+	font-family: 'ONE-Mobile-Title';
+}
+
+
+.m-sports {
+	background-color: #4B70EE;
+	display: inline-block;
+	border-radius: 20px;
+	width: 45px;
+	height: 17px;
+	padding: 7px 7px 1px 10px;
+	color: white;
+	font-family: 'ONE-Mobile-Title';
+	text-align: center;
+	font-size: 11px;
+	margin-left:5px;
+	margin-bottom:12px;
+}
+
+p, #send_btn {
+	font-family: 'ONE-Mobile-Title';
+}
+
+#title {
+	font-size: 16px;
+	margin-bottom: 25px;
+	margin-top: 30px;
+}
+
+#date, #start-time, #end-time {
+	width: 213px;
+	height: 48px;
+	font-size: 14px;
+	font-family: 'ONE-Mobile-Regular';
+	text-align: center;
+	margin-top: 4px;
+}
+
+#able-time input {
+	display: block;
+	height: 20px;
+}
+
+#able-date input {
+	display: block;
+	margin-right: 10px;
+}
+
+.able-dt span {
+	font-size: 13px;
+}
+
+.able-dt p {
+	margin-top: 20px;
+	margin-bottom: 8px;
+}
+
+.ability {
+	width: 95%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.gender {
+	width: 95%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+.game-text {
+	width: 450px;
+	height: 219px;
+}
+	
+	
+#title {
+	font-size: 16px;
+	margin-bottom: 25px;
+	margin-top: 30px;
+}
+
+p, label{
+	font-size:14px;
+}
+	
